@@ -1,0 +1,25 @@
+.nav--primary {
+  margin: auto 1rem;
+  min-height: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.nav--list {
+  margin: 0; padding: 0;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--list--item {
+
+}
+
+.nav--list--link {
+  padding: .2rem .6em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
