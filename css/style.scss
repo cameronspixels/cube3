@@ -22,7 +22,8 @@ body {
 @import 'nav';
 
 .grid--wrapper {
-  margin: 8rem 0; padding: 0 15%;
+  margin: 8rem 0; padding: 0 8%;
+  max-width: 1300px;
   display: grid;
   grid-template-columns: repeat(12, 1fr); grid-gap: 1rem;
 }
@@ -53,12 +54,12 @@ body {
 .main--paragraph {
   margin: 0;
   max-width: 500px;
-  line-height: 1.75;
+  line-height: 1.75; letter-spacing: .33px;
 }
 
 .main--cta {
   text-transform: uppercase; text-decoration: none;
-  font-weight: 600;
+  font-weight: 600; letter-spacing: .5px;
   color: var(--black);
   &::after {
     content: '>';
@@ -212,7 +213,7 @@ body {
 
 .links--link {
   width: 60%;
-  display: inline-block;
+  display: block;
   position: absolute; right: 0;
   @include open-sans; font-size: 1rem;
   text-transform: uppercase;
