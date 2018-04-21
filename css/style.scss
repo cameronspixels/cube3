@@ -22,7 +22,7 @@ body {
 @import 'nav';
 
 .grid--wrapper {
-  margin: 8rem 0; padding: 0 8%;
+  margin: 8rem auto; padding: 0 8%;
   max-width: 1300px;
   display: grid;
   grid-template-columns: repeat(12, 1fr); grid-gap: 1rem;

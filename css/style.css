@@ -88,7 +88,7 @@ body {
   display: none; }
 
 .grid--wrapper {
-  margin: 8rem 0;
+  margin: 8rem auto;
   padding: 0 8%;
   max-width: 1300px;
   display: grid;
